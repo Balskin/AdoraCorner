@@ -5,7 +5,7 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 
-<h2>Bienvenue sur le site AdoraCorner 2</h2>
+<h2>La galerie Photos</h2>
 	
 
 	

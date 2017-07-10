@@ -18,15 +18,13 @@
 		<!-- Materialize -->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet">
-		<link type="text/css" rel="stylesheet" href="/TetrisVersionJSP/Materialize/css/materialize.min.css"
-			media="screen,projection" />
-		<link type="text/css" rel="stylesheet" href="/TetrisVersionJSP/css/complements.css"
+		<link type="text/css" rel="stylesheet" href="/AdoraCorner/Materialize/css/materialize.min.css"
 			media="screen,projection" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		
 		
-		<title>AdoraCorner</title>
+		<title><tiles:insertAttribute name="title" /></title>
 	</head>
 	
 	

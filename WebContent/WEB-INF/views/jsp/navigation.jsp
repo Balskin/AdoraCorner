@@ -7,20 +7,14 @@
 
 
 <nav>
-	<div class="nav-wrapper">
-		<div class="container">
-			<a class="brand-logo">AdoraCorner</a>
+	<div class="nav-wrapper teal lighten-3">
+		<a class="brand-logo"><tiles:insertAttribute name="title" /></a>
 
-
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-							
-					<li><a
-						href="${ pageContext.request.contextPath }/home">Accueil</a></li>
-				</ul>
-
-
-
-
-		</div>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">	
+			<li><a href="${ pageContext.request.contextPath }/home">Accueil</a></li>
+			<li><a href="${ pageContext.request.contextPath }/salle">La salle</a></li>
+			<li><a href="${ pageContext.request.contextPath }/salle/galerie">Galerie Photos</a></li>
+			<li><a href="${ pageContext.request.contextPath }/activites">Les activités</a></li>
+		</ul>
 	</div>
 </nav>

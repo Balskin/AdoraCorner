@@ -36,6 +36,8 @@
 			<list>
 				<value>/WEB-INF/tiles/structure.xml</value>
 				<value>/WEB-INF/tiles/home.xml</value>
+				<value>/WEB-INF/tiles/activites.xml</value>
+				<value>/WEB-INF/tiles/salle.xml</value>
 			</list>
 		</property>
 	</bean>

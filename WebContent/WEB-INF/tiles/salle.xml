@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Configuration de la vue "salle" -->
+	<definition name="salle" extends="base.definition">
+		<put-attribute name="title" value="La salle" cascade="true" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/salle.jsp" />
+	</definition>
+
+	<!-- Configuration de la vue "galerie" -->
+	<definition name="galerie" extends="base.definition">
+		<put-attribute name="title" value="Galerie photos" cascade="true" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/galerie.jsp" />
+	</definition>
+	
+</tiles-definitions>

@@ -6,7 +6,7 @@
 
 	<!-- Configuration de la vue "home" -->
 	<definition name="home" extends="base.definition">
-		<put-attribute name="title" value="AdoraCornerTitlePage" cascade="true" />
+		<put-attribute name="title" value="Accueil" cascade="true" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/home.jsp" />
 	</definition>
 	

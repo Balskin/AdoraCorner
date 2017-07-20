@@ -625,9 +625,9 @@ if (jQuery) {
       inDuration: 300,
       outDuration: 225,
       constrainWidth: true, // Constrains width of dropdown to the activator
-      hover: false,
+      hover: true,
       gutter: 0, // Spacing from edge
-      belowOrigin: false,
+      belowOrigin: true,
       alignment: 'left',
       stopPropagation: false
     };

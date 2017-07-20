@@ -38,7 +38,7 @@
 		</div>
 	
 		
-	  <script type="text/javascript" src="/AdoraCorner/Materialize/js/materialize.min.js"></script>	
+	  <script type="text/javascript" src="/AdoraCorner/Materialize/js/materialize.js"></script>	
 	  <script <tiles:insertAttribute name="js" /> ></script>
 	  
 	</body>

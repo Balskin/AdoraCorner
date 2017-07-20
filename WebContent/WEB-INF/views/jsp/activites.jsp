@@ -10,3 +10,5 @@
 
 	
 
+
+    <img src="<%=request.getContextPath() %>/img/local/2017-03-25_20.29.53.jpg" alt="toto" border="0" width="304" height="228" />

@@ -15,5 +15,11 @@
 		<put-attribute name="title" value="Galerie photos" cascade="true" />
 		<put-attribute name="body" value="/WEB-INF/views/jsp/galerie.jsp" />
 	</definition>
+
+	<!-- Configuration de la vue "présentation" -->
+	<definition name="presentation" extends="base.definition">
+		<put-attribute name="title" value="Présentation de la salle" cascade="true" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/presentation.jsp" />
+	</definition>
 	
 </tiles-definitions>

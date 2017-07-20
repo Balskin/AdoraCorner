@@ -5,7 +5,7 @@
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 
 
-<h2>La salle</h2>
+<h2>Présentation de la salle</h2>
 	
 
 	
